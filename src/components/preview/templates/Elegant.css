@@ -1,0 +1,151 @@
+.el {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #2c2929;
+  line-height: 1.6;
+  font-size: 11pt;
+  background: white;
+  min-height: 100%;
+}
+
+.el-header {
+  text-align: center;
+  padding: 30px 40px;
+  border-bottom: 1px solid #d1c8c1;
+  background-color: #fdfcfb;
+}
+
+.el-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #eae5e0;
+}
+
+.el-name {
+  font-size: 26pt;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #1a1a1a;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.el-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  font-size: 9pt;
+  color: #555;
+  font-family: "Inter", "Helvetica", sans-serif;
+}
+
+.el-contacts span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.el-contacts span:not(:last-child)::after {
+  content: "✦";
+  color: #c9b7aa;
+  margin-left: 15px;
+  font-size: 7pt;
+}
+
+.el-body {
+  padding: 30px 40px;
+}
+
+.el-section {
+  margin-bottom: 25px;
+}
+
+.el-section-title {
+  font-size: 13pt;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #1a1a1a;
+  border-bottom: 1px solid #eae5e0;
+  padding-bottom: 8px;
+  margin: 0 0 18px 0;
+  text-align: center;
+}
+
+.el-text {
+  margin: 0;
+  color: #4a4a4a;
+}
+
+.el-desc {
+  margin-top: 6px;
+  font-size: 10pt;
+  text-align: justify;
+}
+
+.el-entry {
+  margin-bottom: 18px;
+}
+
+.el-entry__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.el-entry__title {
+  font-weight: bold;
+  font-size: 11.5pt;
+  color: #2c2c2c;
+}
+
+.el-entry__company {
+  font-style: italic;
+  color: #555;
+}
+
+.el-entry__location {
+  color: #777;
+  font-size: 10pt;
+}
+
+.el-entry__date {
+  font-size: 9.5pt;
+  color: #666;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.el-link {
+  color: #8b7355;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 9pt;
+  padding-left: 10px;
+}
+
+.el-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.el-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.el-skill-tag {
+  background: #f5f2f0;
+  color: #4a4a4a;
+  padding: 4px 10px;
+  font-size: 9pt;
+  border-radius: 2px;
+  border: 1px solid #e8e4e1;
+  font-family: "Inter", sans-serif;
+}

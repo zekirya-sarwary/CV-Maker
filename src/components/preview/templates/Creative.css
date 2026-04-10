@@ -1,0 +1,185 @@
+/* ── Creative Template ── */
+.cr-cv {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 9.5pt;
+  background: white;
+  min-height: 100%;
+  color: #1a2e3b;
+  line-height: 1.5;
+}
+
+/* Header */
+.cr-header {
+  background: linear-gradient(135deg, #0369a1 0%, #0ea5e9 100%);
+  padding: 28px 32px;
+  color: white;
+}
+
+.cr-header__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cr-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 3px solid rgba(255,255,255,0.5);
+  flex-shrink: 0;
+}
+
+.cr-name {
+  font-size: 22pt;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 6px;
+  line-height: 1.1;
+}
+
+.cr-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px 14px;
+  font-size: 8pt;
+  color: rgba(255,255,255,0.85);
+  margin-top: 3px;
+}
+
+/* Body */
+.cr-body {
+  display: flex;
+  gap: 0;
+}
+
+.cr-left {
+  flex: 1.4;
+  padding: 22px 22px 30px 28px;
+  border-right: 2px solid #e0f2fe;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cr-right {
+  flex: 1;
+  padding: 22px 24px 30px 20px;
+  background: #f0f9ff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cr-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cr-section-title {
+  font-size: 9.5pt;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0369a1;
+  border-bottom: 2px solid #bae6fd;
+  padding-bottom: 3px;
+}
+
+.cr-section-title--right {
+  color: #0369a1;
+  border-bottom-color: #7dd3fc;
+}
+
+/* Timeline entries */
+.cr-entry {
+  display: flex;
+  gap: 10px;
+}
+
+.cr-entry__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #0ea5e9;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.cr-entry__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cr-entry__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.cr-entry__title {
+  font-weight: 700;
+  font-size: 10pt;
+  color: #0c4a6e;
+}
+
+.cr-entry__sub {
+  font-size: 8.5pt;
+  color: #0369a1;
+  font-weight: 600;
+}
+
+.cr-entry__date {
+  font-size: 7.5pt;
+  color: #94a3b8;
+  white-space: nowrap;
+  font-style: italic;
+}
+
+.cr-text {
+  font-size: 9pt;
+  color: #374151;
+  line-height: 1.55;
+}
+
+.cr-desc {
+  white-space: pre-line;
+}
+
+/* Right column entries */
+.cr-right-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  background: white;
+  border-radius: 6px;
+  border-left: 3px solid #0ea5e9;
+}
+
+/* Skills */
+.cr-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.cr-skill-tag {
+  padding: 3px 9px;
+  background: #0ea5e9;
+  color: white;
+  border-radius: 4px;
+  font-size: 8pt;
+  font-weight: 600;
+}
+
+.cr-link {
+  font-size: 7.5pt;
+  color: #0369a1;
+  word-break: break-all;
+}
