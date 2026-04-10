@@ -483,6 +483,9 @@
   position: relative;
   overflow: hidden;
   border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 40px);
 }
 
 .about-modal__close {
@@ -510,6 +513,8 @@
 
 .about-modal__content {
   padding: 40px;
+  overflow-y: auto;
+  flex: 1;
 }
 
 .about-modal__title {
@@ -609,4 +614,40 @@
 [data-theme='dark'] .social-btn.linkedin {
   background: rgba(10, 102, 194, 0.3);
   color: #70b5f9;
+}
+
+@media (max-width: 600px) {
+  .about-modal-overlay {
+    padding: var(--space-2);
+  }
+
+  .about-modal {
+    max-height: calc(100vh - 20px);
+    border-radius: var(--radius-lg);
+  }
+
+  .about-modal__content {
+    padding: 24px 16px;
+  }
+
+  .about-modal__title {
+    font-size: 1.2rem;
+    padding-right: 30px;
+  }
+
+  .about-modal__body {
+    font-size: 0.9rem;
+  }
+
+  .socials-links {
+    gap: 8px;
+  }
+
+  .social-btn {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    flex: 1;
+    min-width: 100px;
+    justify-content: center;
+  }
 }
